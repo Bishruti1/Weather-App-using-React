@@ -1,0 +1,19 @@
+form{
+    margin-top: 3rem;
+}
+
+form input[name='city'],form input[name='country']
+{
+    background-color: rgba(105, 101, 101, 0.39) !important;
+    color: #f1f7f0;
+    border-bottom: 2px solid #fdfdfd;
+    border-radius: 0;
+    border: 0;
+}
+form imput:focus{
+    background-color: transparent!important;
+    box-shadow: none!important;
+}
+.form-control::placeholder{
+    color: #ffff;
+}
